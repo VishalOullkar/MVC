@@ -1,0 +1,56 @@
+﻿@using stronglytype.Models 
+@model stronglytype.Models.Employee
+            
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Index</title>
+</head>
+<body>
+    <div>
+      <table>
+          <tr>
+              <td>ID</td>
+              <td>@Html.TextBox("txtId","sjfdjv", new { @class = "form-control" , @onClick="sample()"})</td>
+
+
+          </tr>
+          <tr>
+              <td>Address</td>
+              <td>@Html.TextArea("txtAreaAddress", new { @class="form-control"})</td>
+          </tr>
+
+          <tr>
+              <td>Gender</td>
+              <td>@Html.DropDownList("Gender", new SelectList(Enum.GetValues(typeof(Gender))),"ssss")</td>
+          </tr>
+
+
+          <tr>
+              <td>City</td>
+              <td>Bangolre :@Html.RadioButton("city", "Bangolre")</td>
+              <td>goa :@Html.RadioButton("city", "goa")</td>
+
+          </tr>
+          <tr>
+          <td>XXX :@Html.CheckBox("isNewlyEnrolled", true)</td>
+          </tr>
+
+      </table>   
+    </div>
+    <script>
+        function sample() {
+            alert("sudhir")
+        }
+    </script>
+</body>
+</html>

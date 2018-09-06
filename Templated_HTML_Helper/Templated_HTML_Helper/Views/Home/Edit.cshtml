@@ -1,0 +1,24 @@
+﻿@using Templated_HTML_Helper.Models
+@model Class1
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+
+    @using(Html.BeginForm("myform"))
+    {
+        @Html.EditorForModel();
+    }
+
+</head>
+<body>
+    <div> 
+    </div>
+</body>
+</html>

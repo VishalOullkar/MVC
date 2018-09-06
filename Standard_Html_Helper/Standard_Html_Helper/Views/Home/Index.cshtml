@@ -1,0 +1,82 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <!-- Bootstrap -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src = "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src = "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div class="container">
+        @using (Html.BeginForm())
+        {
+
+            <div class="col.lg-2">
+
+            </div>
+            <div class="col.lg-8">
+                <table class="table">
+                    <caption style="text-align:center;font-size:large">Standard HTML Helpers</caption>
+
+                    <tr>
+                        <br />
+                        <br />
+                        <td>ActionLink Example</td>
+                        <td>@Html.ActionLink("Click Me ", "ClickMe")</td>
+                        <td>@Html.ActionLink("Click Me to go other Controller", "myfun", "Employee")</td>
+                    </tr>
+
+                    <tr>
+                        <td>Textbox Example</td>
+                        <td>@Html.TextBox("tetbox1", "", new { id = "txtexample", @class = "form-control", style = "width:200px" })</td>
+                    </tr>
+
+                    <tr>
+                        <td>Checkbox Example</td>
+                        <td>@Html.CheckBox("checkbox1", true, new { id = "checkboxexample" })</td>
+                    </tr>
+
+                    <tr>
+                        <td>RadioButton Example</td>
+                        <td>@Html.RadioButton("Gender", "Male", new { id = "rd1example" })@Html.Label("Male")</td>
+                        <td>@Html.RadioButton("Gender", "FeMale", new { id = "rd2example" })@Html.Label("FeMale")</td>
+                    </tr>
+
+                    <tr>
+                        <td>DropDownList Example</td>
+                        <td>
+                            @Html.DropDownList("MySkills", new List<SelectListItem>
+                         {
+                            new SelectListItem{ Text="ASP.NET MVC", Value = "1" },
+                            new SelectListItem{ Text="ASP.NET WEB API", Value = "2" },
+                            new SelectListItem{ Text="ENTITY FRAMEWORK", Value = "3" }
+
+                         }, "--Select--", new { @class = "form-control", style = "width:200px" })
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+            <div class="col.lg-2">
+
+            </div>
+         
+        }
+        </div>
+    </body>
+</html>

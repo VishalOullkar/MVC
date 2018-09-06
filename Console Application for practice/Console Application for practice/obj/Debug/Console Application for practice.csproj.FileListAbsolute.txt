@@ -1,0 +1,6 @@
+E:\StudyForMVC-Stuff\Console Application for practice\Console Application for practice\bin\Debug\Console Application for practice.exe.config
+E:\StudyForMVC-Stuff\Console Application for practice\Console Application for practice\bin\Debug\Console Application for practice.exe
+E:\StudyForMVC-Stuff\Console Application for practice\Console Application for practice\bin\Debug\Console Application for practice.pdb
+E:\StudyForMVC-Stuff\Console Application for practice\Console Application for practice\obj\Debug\Console Application for practice.csprojResolveAssemblyReference.cache
+E:\StudyForMVC-Stuff\Console Application for practice\Console Application for practice\obj\Debug\Console Application for practice.exe
+E:\StudyForMVC-Stuff\Console Application for practice\Console Application for practice\obj\Debug\Console Application for practice.pdb

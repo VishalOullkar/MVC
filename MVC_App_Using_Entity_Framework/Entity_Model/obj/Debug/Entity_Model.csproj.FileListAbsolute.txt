@@ -1,0 +1,10 @@
+E:\StudyForMVC-Stuff\MVC_App_Using_Entity_Framework\Entity_Model\bin\Debug\Entity_Model.dll.config
+E:\StudyForMVC-Stuff\MVC_App_Using_Entity_Framework\Entity_Model\bin\Debug\Entity_Model.dll
+E:\StudyForMVC-Stuff\MVC_App_Using_Entity_Framework\Entity_Model\bin\Debug\Entity_Model.pdb
+E:\StudyForMVC-Stuff\MVC_App_Using_Entity_Framework\Entity_Model\bin\Debug\EntityFramework.dll
+E:\StudyForMVC-Stuff\MVC_App_Using_Entity_Framework\Entity_Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\StudyForMVC-Stuff\MVC_App_Using_Entity_Framework\Entity_Model\bin\Debug\EntityFramework.xml
+E:\StudyForMVC-Stuff\MVC_App_Using_Entity_Framework\Entity_Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\StudyForMVC-Stuff\MVC_App_Using_Entity_Framework\Entity_Model\obj\Debug\Entity_Model.csprojResolveAssemblyReference.cache
+E:\StudyForMVC-Stuff\MVC_App_Using_Entity_Framework\Entity_Model\obj\Debug\Entity_Model.dll
+E:\StudyForMVC-Stuff\MVC_App_Using_Entity_Framework\Entity_Model\obj\Debug\Entity_Model.pdb

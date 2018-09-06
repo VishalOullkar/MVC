@@ -1,0 +1,87 @@
+﻿@using Front_end_with_helper_using_bootstrap.Models
+@model Front_end_with_helper_using_bootstrap.Models.Class1
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        #cdiv
+{
+    position: relative;
+     border: 5px; 
+      top:100px;
+}
+        .row
+         {
+            border: 5px;     
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+
+       
+        <div class="row">
+
+            <div class="col-lg-2"> </div>
+            <div id="cdiv" class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-2">Title</div>
+                    <div class="col-lg-4">@Html.TextBoxFor(m => m.title, new {@class="form-control" })</div>
+                </div><br/>
+
+                <div class="row">
+                    <div class="col-lg-2">Description</div>
+                    <div class="col-lg-4">@Html.TextAreaFor(m => m.Description, new { @class = "form-control" })</div>
+                </div><br/>
+
+                <div class="row">
+                    <div class="col-lg-2">Date</div>
+                    <div class="col-lg-4">@Html.EditorFor(m => m.Enterdate, new { @class = "form-control" })</div>
+                </div>
+
+                        
+
+
+                        <input type="button" value="Submit">
+               
+
+                @*<table class="table">
+                   <tr>
+                        <td>Title</td>
+                        <td>@Html.TextBoxFor(m => m.title)</td>
+                    </tr>
+                    <tr>
+                        <td>Description</td>
+                        <td>@Html.TextAreaFor(m => m.Description)</td>
+                    </tr>
+                    <tr>
+                        <td>Date</td>
+                        <td>@Html.EditorFor(m => m.Enterdate)</td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><input type="button" value="Submit"></td>
+                    </tr>
+                </table>*@
+
+            </div>
+            <div class="col-lg-2"> </div>
+
+            
+        </div> 
+        
+    </div>
+</body>
+</html>

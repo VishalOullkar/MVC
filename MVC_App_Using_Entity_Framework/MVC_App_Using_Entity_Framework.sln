@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_App_Using_Entity_Framework", "MVC_App_Using_Entity_Framework\MVC_App_Using_Entity_Framework.csproj", "{5A69D123-0215-4584-8369-B5DFEF7FA17B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity_Model", "Entity_Model\Entity_Model.csproj", "{6A3153A7-B909-4D36-9614-26D0330A50D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A69D123-0215-4584-8369-B5DFEF7FA17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A69D123-0215-4584-8369-B5DFEF7FA17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A69D123-0215-4584-8369-B5DFEF7FA17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A69D123-0215-4584-8369-B5DFEF7FA17B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3153A7-B909-4D36-9614-26D0330A50D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3153A7-B909-4D36-9614-26D0330A50D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3153A7-B909-4D36-9614-26D0330A50D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3153A7-B909-4D36-9614-26D0330A50D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,59 @@
+﻿@model Templated_HTML_Helper.Models.Class1
+@using Templated_HTML_Helper.Models
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Templaed HTML Helper</title>
+</head>
+<body>
+    @using (Html.BeginForm()) 
+    {
+        @Html.AntiForgeryToken()
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <div>
+                       <b> Templaed HTML Helper</b>
+                        <br/>
+                       @Html.DisplayName("Id")    :<br />     
+                        @Html.DisplayNameFor(x=>x.Address)  :<br />  
+                        @Html.DisplayTextFor(x=>x.Name):<br />  
+                       @Html.DisplayNameFor(x=>x.Name): @Html.Display("Name")<br/>
+                        <hr>
+
+                        <hr><hr /><hr />
+
+                        @Html.DisplayForModel()
+
+                        <hr/><hr/>
+
+                        @using(Html.BeginForm("myform"))
+                        {
+                            @Html.EditorForModel();
+                            
+                            <input type="submit" value="Submit">
+
+                        }
+                         
+                    </div>
+                     
+                </div>
+                <div class="col-lg-4"></div>
+
+            </div>
+        </div>
+        
+    }
+    
+
+</body>
+</html>

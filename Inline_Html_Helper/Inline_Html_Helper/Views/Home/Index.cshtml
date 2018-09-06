@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Inline HTML helpers</h2>
+
+<div>
+@helper MyListhelper(string[] str)
+{
+
+    <ul>
+        @foreach (var item in str)
+        {
+            <li>@item</li>
+        }
+    </ul>
+}
+</div>
+    <div>
+        <label>Example1 Name list</label>
+        <div>
+            @MyListhelper(new string[] {"Vishal","Rahul","Sunil","Ganapati"} )
+        </div>
+    </div>
+
+
+
